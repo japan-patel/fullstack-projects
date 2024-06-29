@@ -12,3 +12,5 @@
 - npm uinstall *package name* - will uninstall package from project's folder ( package.json as well as node_module)
 - npm install - with node only package.json and package-lock.json files are needed in order to recreate project/app somewhere else. Running this command will download everything needed from package.json file
 - npx - is used to run script/package that is not needed for development or to run the app/project. It doesn't store files in project folder or node_modules
+## 2) hello-world
+- A sample Express.js server that listens on port 3000 and returns Hello World! at url localhost:3000/hello
